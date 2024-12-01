@@ -27,13 +27,18 @@
   --fw-md: 500;
   --fw-bold: 800;
 
-  /* Mobile */
-
+  /* mobile */
   --fs-sm: 0.875rem;
   --fs-base: 1rem;
   --fs-lg: 1.25rem;
   --fs-xl: 1.5rem;
   --fs-2xl: 2.5rem;
+
+  --py-base: 1rem;
+  --py-lg: 1.5rem;
+  --py-xl: 3rem;
+
+  --px-lg: 1.5rem;
 }
 
 html {
@@ -78,11 +83,17 @@ ul[role="list"] {
   list-style: none;
 }
 
-/* 1280px de largura */
+/* 1280px de largura tela maior*/
 @media (width >= 80em) {
   :root {
     --fs-lg: 2rem;
     --fs-xl: 3rem;
     --fs-2xl: 4rem;
+
+    --py-base: 1.5rem;
+    --py-lg: 2.5rem;
+    --py-xl: 5rem;
+
+    --px-lg: 2rem;
   }
 }
