@@ -8,7 +8,7 @@ a.social {
   -webkit-background-clip: initial;
   background-clip: initial;
 
-  a[area-label="tiktok"] {
+  &[area-label="tiktok"] {
     --bg-img: url(../assets/icons/tiktok.svg);
 
     &:hover {
@@ -16,7 +16,7 @@ a.social {
     }
   }
 
-  a[area-label="instagram"] {
+  &[area-label="instagram"] {
     --bg-img: url(../assets/icons/instagram.svg);
 
     &:hover {
@@ -24,7 +24,7 @@ a.social {
     }
   }
 
-  a[area-label="twitter"] {
+  &[area-label="twitter"] {
     --bg-img: url(../assets/icons/twitter.svg);
 
     &:hover {
@@ -32,7 +32,7 @@ a.social {
     }
   }
 
-  a[area-label="discord"] {
+  &[area-label="discord"] {
     --bg-img: url(../assets/icons/discord.svg);
 
     &:hover {
