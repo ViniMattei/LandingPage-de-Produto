@@ -95,6 +95,11 @@ ul[role="list"] {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
 /* 1280px de largura tela maior*/
 @media (width >= 80em) {
   :root {
